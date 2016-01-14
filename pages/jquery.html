@@ -13,22 +13,19 @@
       <div class="jumbotron">
         <h2>jQuery</h2>
         <p>
-          An array is a container object that holds a fixed number of values of a single type.
+          jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.
         </p>
       </div>
       <div class="example">
         <h3>Code Example</h3>
         <pre>
-          var pages2 = [
-            ["pages/divsandspans.html", "Divs &amp; Spans"],
-            ["pages/dom.html", "DOM"],
-            ["pages/floats.html", "Floats"],
-            ["pages/forms.html", "Forms"],
-            ["pages/grid-system.html", "Grid System"],
-            ["pages/inline-elements.html", "Inline Elements"],
-            ["pages/javascript-arithmetic.html", "JS Arithmetic"],
-            ["pages/jquery.html", "jQuery"]
-          ];
+          $(function() {
+
+            pages.forEach(function(page) {
+              $("#mylinks1").append( "hi" + "there");
+            });
+
+          })
         </pre>
       </div>
       <a class="btn btn-default" href="../index.html" role="button">Main Page</a>

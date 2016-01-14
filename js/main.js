@@ -31,15 +31,15 @@ $(function(){
 
 
   pages1.forEach(function(page) {
-    $("#mylinks1").append( "<li>" + "<a href=\"" + page[0] + "\">" + page[1] +"<a>" +  "</li>");
+    $("#mylinks1").append( "<li><a href=\"" + page[0] + "\">" + page[1] +"<a></li>");
   });
 
   pages2.forEach(function(page) {
-    $("#mylinks2").append( "<li>" + "<a href=\"" + page[0] + "\">" + page[1] +"<a>" +  "</li>");
+    $("#mylinks2").append( "<li><a href=\"" + page[0] + "\">" + page[1] +"<a></li>");
   });
 
   pages3.forEach(function(page) {
-      $("#mylinks3").append( "<li>" + "<a href=\"" + page[0] + "\">" + page[1] +"<a>" +  "</li>");
+      $("#mylinks3").append( "<li><a href=\"" + page[0] + "\">" + page[1] +"<a></li>");
   });
 
   });
