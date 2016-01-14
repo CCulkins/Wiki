@@ -21,7 +21,7 @@ h3 {
 }
 
 .jumbotron {
-
+  margin-top: 8%;
   background-color: #99ccff;
 }
 
@@ -32,4 +32,13 @@ a:visited {
 
 a:hover {
   color: #99ccff;
+}
+
+#footer {
+  margin-top: 35%;
+}
+
+#footer p {
+  float: right;
+  padding-right: 15px;
 }
